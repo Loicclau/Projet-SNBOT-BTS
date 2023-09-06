@@ -1,0 +1,53 @@
+html {
+    font-family: Helvetica;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #152b14; /* Gris foncé */
+    color: #ffffff; /* Texte en blanc sur le fond gris foncé */
+    }
+    h1{
+    color: #42d86f;
+    padding: 2vh;
+    }
+    p{
+    font-size: 1.5rem;
+    }
+    .button {
+    display: inline-block;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+    }
+    .button2 {
+    background-color: #f44336;
+    }
+    .bottom-text {
+        color: rgb(47, 165, 47); /* Couleur verte */
+        text-align: center; /* Centrer le texte horizontalement */
+        margin-top: 20px; /* Espacement depuis le haut de la page */
+    }
+    .button-link {
+        display: inline-block;
+        margin: 0 17px; /* Espacement horizontal entre les boutons */
+    }
+    /* CSS pour le pied de page */
+footer {
+    background-color: #091408; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte du pied de page */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding: 20px 0; /* Espacement interne du pied de page */
+}
+
+footer p {
+    margin: 0; /* Supprimer les marges par défaut du paragraphe */
+}
+
+    
+        
