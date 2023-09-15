@@ -2,27 +2,32 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Contrôle de LED 3 couleur à distance</title>
+    <title>Contrôle de la led connecté</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:,">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Contrôle de LED à distance</h1>
-    <p class="bottom-text">Bienvenue sur notre site web pour contrôler la LED ! Vous pouvez allumer et éteindre la LED en cliquant sur les boutons !</p>
-    <p>Allumez ou éteignez la LED en cliquant sur les boutons ci-dessous :</p>
-    <h1><strong>La LED est en ce moment %STATE%</strong></h1>
-    <p><a href="/on" class="button-link"><button class="button">ON</button></a><a href="/off" class="button-link"><button class="button button2">OFF</button></a></p>
-
-
-    <h1>Comment ça fonctionne :</h1>
-    <p class="bottom-text"><strong>Contrôle à distance : </strong> Cliquez simplement sur le bouton d'alimentation pour allumer ou éteindre la LED connectée à notre ESP32. Lorsque vous cliquez sur le bouton, vous enverrez une commande à notre serveur ESP32, qui contrôlera instantanément la LED.</p>
-    <p class="bottom-text"><strong>Visualisation en temps réel : </strong> Vous verrez également un indicateur visuel qui vous montrera l'état actuel de la LED, qu'elle soit allumée (en vert) ou éteinte (en rouge).</p>
-
+    <h1>Contrôle la LED en cliquant sur les boutons ci-dessous ↓</h1>
+    <h1>La LED est %STATE%</h1>
+    <p>
+        <a href="/on" class="button-link"><button class="button">ON</button></a>
+        <a href="/off" class="button-link"><button class="button">OFF</button></a>
+        <a href="/random" class="button-link"><button class="button">Random</button></a>
+    </p>
+    <p>
+        <a href="/red" class="button-link"><button class="button" style="background-color: red;">Rouge</button></a>
+        <a href="/green" class="button-link"><button class="button" style="background-color: green;">Vert</button></a>
+        <a href="/blue" class="button-link"><button class="button" style="background-color: blue;">Bleu</button></a>
+        <a href="/orange" class="button-link"><button class="button" style="background-color: rgb(255, 166, 0);">Orange</button></a>
+    </p>
+    <p>
+        <a href="/jaune" class="button-link"><button class="button" style="background-color: rgb(255, 255, 0);">Jaune</button></a>
+        <a href="/cyan" class="button-link"><button class="button" style="background-color: rgb(0, 255, 255);">Cyan</button></a>
+        <a href="/maginta" class="button-link"><button class="button" style="background-color: rgb(255, 0, 255);">Maginta</button></a>
+        <a href="/violet" class="button-link"><button class="button" style="background-color: rgb(93, 0, 155);">Violet</button></a>
+    </p>
+    <p class="bottom-text"><strong>Contrôle à distance : </strong>Lorsque vous cliquez sur un bouton, une commande est envoyer au serveur sur l'esp32, qui contrôle instantanément la Led</p>
 </body>
-<footer>
-    <p>Site réalisé par Loïc CLAUDE</p>
-</footer>
-
 </html>
 

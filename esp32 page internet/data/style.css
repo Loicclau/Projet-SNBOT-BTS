@@ -3,50 +3,36 @@ html {
     display: inline-block;
     margin: 0px auto;
     text-align: center;
-    background-color: #152b14; /* Gris foncé */
+    background-color: #0d1427; /* Gris foncé */
     color: #ffffff; /* Texte en blanc sur le fond gris foncé */
-    }
-    h1{
-    color: #42d86f;
+}
+h1 {
+    color: #7cb9e2;
     padding: 2vh;
-    }
-    p{
-    font-size: 1.5rem;
-    }
-    .button {
+}
+p {
+    font-size: 1.8rem;
+}
+.button {
     display: inline-block;
-    background-color: #008CBA;
+    background-color: #1b2742;
     border: none;
     border-radius: 4px;
     color: white;
-    padding: 16px 40px;
+    padding: 18px 70px; /* Largeur fixe de 20px pour tous les boutons */
     text-decoration: none;
     font-size: 30px;
     margin: 2px;
     cursor: pointer;
-    }
-    .button2 {
-    background-color: #f44336;
-    }
-    .bottom-text {
-        color: rgb(47, 165, 47); /* Couleur verte */
-        text-align: center; /* Centrer le texte horizontalement */
-        margin-top: 20px; /* Espacement depuis le haut de la page */
-    }
-    .button-link {
-        display: inline-block;
-        margin: 0 17px; /* Espacement horizontal entre les boutons */
-    }
-    /* CSS pour le pied de page */
-footer {
-    background-color: #091408; /* Couleur de fond du pied de page */
-    color: white; /* Couleur du texte du pied de page */
-    text-align: center; /* Centrer le texte horizontalement */
-    padding: 20px 0; /* Espacement interne du pied de page */
 }
-
-footer p {
-    margin: 0; /* Supprimer les marges par défaut du paragraphe */
+.bottom-text {
+    color: rgb(41, 129, 170); /* Couleur verte */
+    text-align: center; /* Centrer le texte horizontalement */
+    margin-top: 20px; /* Espacement depuis le haut de la page */
+}
+.button-link {
+    display: inline-block;
+    margin: 0 17px; /* Espacement horizontal entre les boutons */
 }
 
     
