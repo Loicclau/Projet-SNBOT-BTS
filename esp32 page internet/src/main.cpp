@@ -3,8 +3,8 @@
 #include <SPIFFS.h>
 /*Code utilisant une esp32 et un serveur web pour faire les lampe controlable a distance via wifi*/
 
-const char* ssid = "Galaxy A54 5G";
-const char* password = "12345678";
+const char* ssid = "BTS-SN";  // Galaxy A54 5G
+const char* password = "ECIR1234"; //   12345678
 // Set LED GPIO
 const byte ledPins[] = {15, 2, 4};    //define red, green, blue led pins
 const byte chns[] = {0, 1, 2};        //define the pwm channels

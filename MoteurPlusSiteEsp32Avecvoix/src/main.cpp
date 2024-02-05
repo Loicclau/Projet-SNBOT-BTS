@@ -12,8 +12,8 @@ envoyée via la connexion série, il l'affiche dans la console série, puis l'en
 #include <SPIFFS.h>
 
 
-const char *ssid = "BTS_SN";
-const char *password = "ECIR1234";
+const char *ssid = "BTS_SN"; //BTS_SN  Galaxy A54 5G
+const char *password = "ECIR1234";  //12345678
 String RobotState;
 AsyncWebServer server(80);
 // Replaces placeholder with LED state value
@@ -32,7 +32,7 @@ void setup() {
     Serial.begin(9600); // Initialiser la connexion série à 9600 bauds
     //Serial.begin(115200);
 
-  
+ // controle /
   // Initialize SPIFFS
   if(!SPIFFS.begin(true)){
   Serial.println("An Error has occurred while mounting SPIFFS");
