@@ -8,8 +8,8 @@
 #include "fr_forward.h"
 #include "fr_flash.h"
 
-const char* ssid = "iPhone de Paulin";
-const char* password = "FautReactiver68";
+const char* ssid = "BTS_SN";  //iPhone de Paulin
+const char* password = "ECIR1234";  //FautReactiver68
 
 #define ENROLL_CONFIRM_TIMES 5
 #define FACE_ID_SAVE_NUMBER 7
